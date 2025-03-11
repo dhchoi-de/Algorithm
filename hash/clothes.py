@@ -8,6 +8,7 @@ Key Point
 - 아무 것도 입지 않은 경우 None을 추가했기 때문에 모든 경우가 None인 경우 1번을 전체 조합의 수에서 빼준다
 
 """
+
 # Hash 이용한 해결
 # reduce(집계 함수, 순회 가능한 데이터[, 초기값]) 를 활용한 옷의 종류별 개수 집계
 def solution_hash(clothes):
